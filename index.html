@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- Vinculação ao arquivo CSS externo -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Cabeçalho Fixo -->
+<header>
+    <nav>
+        <!-- Menu de Navegação com Links -->
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Estatísticas</a></li>
+            <li><a href="#">Configurações</a></li>
+        </ul>
+        <!-- Ícone de Notificações com Badge -->
+        <div class="notifications">
+            <span class="icon">🔔</span> <!-- Ícone de sino para notificações -->
+            <span class="badge">3</span> <!-- Badge indicando o número de notificações -->
+        </div>
+    </nav>
+</header>
+
+<!-- Menu Lateral -->
+<aside>
+    <ul>
+        <!-- Cada item do menu lateral possui um ícone e um link de navegação -->
+        <li><a href="#"><span class="icon">📊</span>Dashboard</a></li>
+        <li><a href="#"><span class="icon">⚙️</span>Configurações</a></li>
+        <li><a href="#"><span class="icon">📅</span>Calendário</a></li>
+    </ul>
+</aside>
+
+<!-- Conteúdo Principal -->
+<main>
+    <!-- Seção dos Cards de Estatísticas -->
+    <section class="cards">
+        <div class="card">Estatística 1</div> <!-- Card de estatística individual -->
+        <div class="card">Estatística 2</div>
+        <div class="card">Estatística 3</div>
+        <div class="card">Estatística 4</div>
+    </section>
+
+    <!-- Seção de Atividades Recentes -->
+    <section class="recent-activities">
+        <h2>Atividades Recentes</h2> <!-- Título da seção -->
+        <ul>
+            <!-- Lista de atividades com ícones de status -->
+            <li><span class="status completed"></span> Atividade 1 - Completa</li> <!-- Atividade completa -->
+            <li><span class="status pending"></span> Atividade 2 - Pendente</li> <!-- Atividade pendente -->
+            <li><span class="status in-progress"></span> Atividade 3 - Em progresso</li> <!-- Atividade em progresso -->
+        </ul>
+    </section>
+</main>
+
+<!-- Rodapé -->
+<footer>
+    <!-- Texto do rodapé com direitos autorais -->
+    <p>&copy; 2023 Dashboard, Todos os direitos reservados</p>
+</footer>
+
+</body>
+</html>
